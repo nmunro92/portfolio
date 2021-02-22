@@ -36,5 +36,13 @@ a:hover {
     width: 100vw;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center;   
+    background:linear-gradient(
+          115deg,
+          rgba(58, 58, 158, 0.8),
+          rgba(136, 136, 206, 0.7)
+        ),
+        url(https://assets.entrepreneur.com/content/3x2/2000/1599084192-Ent-CodingBundle.jpg) no-repeat center center fixed;
+        background-size: 100%;
+      
  }
