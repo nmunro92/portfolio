@@ -1,3 +1,7 @@
+html {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
 
 #navbar {
     display: flex;
@@ -6,7 +10,7 @@
     height: 40px;
     top: 0;
     left: 0;
-    background-color: rgb(70, 67, 67);
+    background-color: white;
     font-size: 18px;
 }
 #navbar > ul {
@@ -36,7 +40,9 @@ a:hover {
     width: 100vw;
     display: flex;
     justify-content: center;
-    align-items: center;   
+    align-items: center;  
+    color: white;
+    font-size: x-large; 
     background:linear-gradient(
           115deg,
           rgba(58, 58, 158, 0.8),
@@ -45,4 +51,22 @@ a:hover {
         url(https://assets.entrepreneur.com/content/3x2/2000/1599084192-Ent-CodingBundle.jpg) no-repeat center center fixed;
         background-size: 100%;
       
+ }
+
+ #projects > h3 {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+ }
+
+ #projects-container {
+     display: flex;
+     flex-direction: row;
+
+ }
+
+ .project-tile {
+     background-color: blue;
+     padding: 50px;
+     margin: 10px;
  }
