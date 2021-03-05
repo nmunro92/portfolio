@@ -60,6 +60,10 @@ a:hover {
       
  }
 
+ #hidden {
+     display: none;
+ }
+
  #projects > h3 {
     display: flex;
     justify-content: center;
@@ -75,15 +79,27 @@ a:hover {
 
  .project-tile {
      background-color: blue;
-     padding: 50px;
+     padding: 30px;
      margin: 10px;
      height: 10rem;
      width: 15rem;
-     display: flex;
+    display: flex;
     justify-content: center;
-    align-items: center; 
+    align-items: center;
  }
 
- .project-tile:hover {
+ .project-tile:hover{
      background-color: green;
  }
+
+ .project-tile:hover #hidden {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+
+ .project-tile:hover #replace {
+     display: none;
+ }
+ 
+
