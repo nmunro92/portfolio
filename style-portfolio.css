@@ -6,6 +6,7 @@ html {
         rgba(136, 136, 206, 0.7)
       );
       scroll-behavior: smooth;
+      overflow-x: hidden;
 }
 
 
@@ -77,8 +78,14 @@ a:hover {
 
  }
 
+ #survey-tile {
+    background:
+      url(https://thumbs.dreamstime.com/b/online-form-survey-computer-vector-illustration-flat-cartoon-desktop-pc-showing-long-quiz-exam-paper-sheet-document-icon-line-112060721.jpg);
+      background-size: 100%;
+ }
+
  .project-tile {
-     background-color: blue;
+    
      padding: 30px;
      margin: 10px;
      height: 10rem;
@@ -86,16 +93,26 @@ a:hover {
     display: flex;
     justify-content: center;
     align-items: center;
+    
  }
 
  .project-tile:hover{
      background-color: green;
+     background:linear-gradient(
+        115deg,
+        rgba(58, 58, 158, 0.8),
+        rgba(136, 136, 206, 0.7)
+      );
+      margin: 0;
  }
 
  .project-tile:hover #hidden {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 30px;
+     margin: 10px;
+    
  }
 
  .project-tile:hover #replace {
