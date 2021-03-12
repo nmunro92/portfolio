@@ -2,7 +2,7 @@ html {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
    
       scroll-behavior: smooth;
-      overflow-x: hidden;
+     
 }
 
 #navbar {
@@ -70,7 +70,24 @@ a:hover {
      display: flex;
      flex-direction: row;
      align-items: center;
+     justify-content: center;
+     flex-wrap: wrap;
+    
+ }
 
+ .project-tile {
+    padding: 30px;
+    margin: 10px;
+    height: 8rem;
+    width: 13rem;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
+}
+
+ #survey-tile, #product-tile, #doco-tile, #tribute-tile {
+     margin: 8px;
  }
 
  #survey-tile {
@@ -97,18 +114,6 @@ a:hover {
     background-size: 100%;
 }
 
- .project-tile {
-    
-     padding: 30px;
-     margin: 10px;
-     height: 10rem;
-     width: 15rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
- }
-
  .project-tile:hover{
      background-color: green;
      background:linear-gradient(
@@ -125,6 +130,7 @@ a:hover {
     align-items: center;
     padding: 30px;
      margin: 10px;
+     color: white;
     
  }
 
