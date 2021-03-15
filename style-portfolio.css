@@ -154,7 +154,28 @@ a:hover {
     
  }
 
- 
+ #contact {
+     background-color: darkgray;
+     background-size: 100%;
+     margin: -18px;
+ }
+
+ #contact > h3 {
+     margin-top: 10px;
+     display: flex;
+     justify-content: center;
+ }
+
+ #contact-links {
+    
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+ }
+
+ #profile-link {
+     padding: 10px;
+ }
 
 @media screen and (max-width: 600px) {
     #welcome-section {
